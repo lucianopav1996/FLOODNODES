@@ -62,3 +62,36 @@ If you need to analyze larger watersheds:
 
 Install all dependencies:
 ```bash
+---
+
+## IDF Parameters Data Source
+
+The **IDF (Intensity-Duration-Frequency) parameters** used in this analysis are derived from:
+
+- **Database:** FOCA (Italian national extreme rainfall database)
+- **Methodology:** Regional frequency analysis following **Hosking and Wallis (1997)** procedure
+- **Parameters:** 
+  - `a` (scale parameter) - mm/h
+  - `n` (exponential parameter) - dimensionless
+
+### Data Availability
+
+**Important Note:** The complete IDF parameter datasets (a and n) for all of Italy are **too large to be hosted on GitHub** due to file size limitations.
+
+**Options for obtaining the data:**
+
+1. **Download from official sources:**
+   - FOCA database repository
+
+2. **Generate for your specific basin:**
+   - Use regional frequency analysis tools
+   - Follow Hosking & Wallis (1997) L-moments methodology
+   - Contact the authors for assistance
+
+3. **Alternative:** Use simplified uniform IDF parameters for preliminary assessments (less accurate)
+
+### Reference
+
+Hosking, J. R. M., & Wallis, J. R. (1997). *Regional frequency analysis: an approach based on L-moments*. Cambridge University Press.
+
+---
