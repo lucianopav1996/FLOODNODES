@@ -58,11 +58,6 @@ If you need to analyze larger watersheds:
 - **GDAL/OGR** (for geospatial processing)
 - **TopoToolbox for Python** (terrain analysis)
 
-### Python Libraries
-
-Install all dependencies:
-```bash
----
 
 ## IDF Parameters Data Source
 
