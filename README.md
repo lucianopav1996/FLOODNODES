@@ -4,7 +4,6 @@ GIS tool for identifying flood hotspots in river networks. Combines terrain anal
 
 FLOODNODES is an **integrated workflow** combining geomorphological terrain analysis, hydrological modeling, and hydraulic simulation algorithms to identify critical flood nodes (flood hotspots) along river networks at large scale.
 
-The solution implements data, methods, and computational codes originating from **15 years of research** by the IDRAN team, providing:
 
 ### Key Features
 
